@@ -1,0 +1,20 @@
+{
+  "__version__": "1.0.12",
+  "modules": {
+    "2d": true,
+    "3d": false,
+    "physics-2d": false,
+    "physics-3d": false,
+    "ui": true,
+    "tween": true,
+    "audio": true,
+    "particle-2d": false,
+    "particle-3d": false,
+    "spine": false,
+    "dragon-bones": false,
+    "tiled-map": false,
+    "terrain": false,
+    "graphics": true,
+    "websocket": false
+  }
+}

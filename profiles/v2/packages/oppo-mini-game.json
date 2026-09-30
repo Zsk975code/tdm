@@ -1,0 +1,15 @@
+{
+  "__version__": "1.0.3",
+  "builder": {
+    "common": {
+      "binGroupConfig": {
+        "threshold": 16,
+        "enable": false
+      },
+      "buildPath": "project://build",
+      "outputName": "oppo-mini-game",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "oppo-mini-game"
+    }
+  }
+}

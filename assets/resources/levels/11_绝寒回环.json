@@ -1,0 +1,129 @@
+{
+  "_source": [
+    "OO0O00OOOOO[]",
+    "[]>1113OO()[]",
+    "[]1()00V11<OO",
+    "OOA1<0010010O",
+    "02001V1<001O0",
+    "O100A<O>11A0O",
+    "O>11111AO()OO"
+  ],
+  "_note": "第十一关（绝寒回环）：发射器+凝滞器+火炮+辐射能塔+特斯拉+光棱塔，开局 1000 金，20 波，仅普通怪/快速怪/大型普通怪/大飞行怪(big_fast)，困难难度。图例：0 = 普通 1×1 冰岩；() = 2×1 宽冰岩；[] = 2×2 冰岩；O = 可建造格；2 = 出生点(1,4)；3 = 萝卜(6,1)；1/A/V/</> = 路径。path 用 (x=列, y=行)，towerSpots/obstacles 用 (row, col)。本关 levelIndex=10 属章节等级 3，波次血量倍率 1.5→2.5，且路径长达 35 格（普通怪需 81.7s 走完），故怪物数量显著高于第十关。配平：前 9 波压力 0.74~0.89（玩家本金不足，是本关真正难点），后段玩家火力成型后压力回落至 0.52~0.73，改由绝对数量（末波 160 只）制造压迫感；刻意压低大普通怪配比（100 金/只但仅 25 血/金，喂饱玩家钱包反而降低难度），血量主要由普通怪(50 血/金)与快速怪(80 血/金)承载。",
+
+  "uid": "lv11",
+  "name": "绝寒回环",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 1000,
+  "lives": 10,
+  "availableTowers": ["emitter", "coagulator", "artillery", "radiation", "tesla", "prism"],
+
+  "path": [
+    { "x": 1, "y": 4 },
+    { "x": 1, "y": 5 },
+    { "x": 1, "y": 6 },
+    { "x": 2, "y": 6 },
+    { "x": 3, "y": 6 },
+    { "x": 4, "y": 6 },
+    { "x": 5, "y": 6 },
+    { "x": 6, "y": 6 },
+    { "x": 7, "y": 6 },
+    { "x": 7, "y": 5 },
+    { "x": 8, "y": 5 },
+    { "x": 9, "y": 5 },
+    { "x": 10, "y": 5 },
+    { "x": 10, "y": 4 },
+    { "x": 10, "y": 3 },
+    { "x": 10, "y": 2 },
+    { "x": 9, "y": 2 },
+    { "x": 8, "y": 2 },
+    { "x": 7, "y": 2 },
+    { "x": 7, "y": 3 },
+    { "x": 7, "y": 4 },
+    { "x": 6, "y": 4 },
+    { "x": 5, "y": 4 },
+    { "x": 5, "y": 5 },
+    { "x": 4, "y": 5 },
+    { "x": 4, "y": 4 },
+    { "x": 4, "y": 3 },
+    { "x": 3, "y": 3 },
+    { "x": 2, "y": 3 },
+    { "x": 2, "y": 2 },
+    { "x": 2, "y": 1 },
+    { "x": 3, "y": 1 },
+    { "x": 4, "y": 1 },
+    { "x": 5, "y": 1 },
+    { "x": 6, "y": 1 }
+  ],
+
+  "towerSpots": [
+    { "row": 0, "col": 0 }, { "row": 0, "col": 1 }, { "row": 0, "col": 3 },
+    { "row": 0, "col": 6 }, { "row": 0, "col": 7 }, { "row": 0, "col": 8 },
+    { "row": 0, "col": 9 }, { "row": 0, "col": 10 },
+
+    { "row": 1, "col": 7 }, { "row": 1, "col": 8 },
+
+    { "row": 2, "col": 11 }, { "row": 2, "col": 12 },
+
+    { "row": 3, "col": 0 }, { "row": 3, "col": 1 }, { "row": 3, "col": 12 },
+
+    { "row": 4, "col": 11 },
+
+    { "row": 5, "col": 0 }, { "row": 5, "col": 6 }, { "row": 5, "col": 12 },
+
+    { "row": 6, "col": 0 }, { "row": 6, "col": 8 }, { "row": 6, "col": 11 }, { "row": 6, "col": 12 }
+  ],
+
+  "obstacles": [
+    { "row": 0, "col": 11, "type": "rock_big" },
+    { "row": 1, "col": 0, "type": "rock_big" },
+
+    { "row": 1, "col": 9, "type": "rock_wide" },
+    { "row": 2, "col": 3, "type": "rock_wide" },
+    { "row": 6, "col": 9, "type": "rock_wide" },
+
+    { "row": 0, "col": 2, "type": "rock_small" },
+    { "row": 0, "col": 4, "type": "rock_small" },
+    { "row": 0, "col": 5, "type": "rock_small" },
+    { "row": 2, "col": 5, "type": "rock_small" },
+    { "row": 2, "col": 6, "type": "rock_small" },
+    { "row": 3, "col": 5, "type": "rock_small" },
+    { "row": 3, "col": 6, "type": "rock_small" },
+    { "row": 3, "col": 8, "type": "rock_small" },
+    { "row": 3, "col": 9, "type": "rock_small" },
+    { "row": 3, "col": 11, "type": "rock_small" },
+    { "row": 4, "col": 0, "type": "rock_small" },
+    { "row": 4, "col": 2, "type": "rock_small" },
+    { "row": 4, "col": 3, "type": "rock_small" },
+    { "row": 4, "col": 8, "type": "rock_small" },
+    { "row": 4, "col": 9, "type": "rock_small" },
+    { "row": 4, "col": 12, "type": "rock_small" },
+    { "row": 5, "col": 2, "type": "rock_small" },
+    { "row": 5, "col": 3, "type": "rock_small" },
+    { "row": 5, "col": 11, "type": "rock_small" }
+  ],
+
+  "waves": [
+    { "enemies": [ { "type": "normal", "count": 18, "interval": 0.9, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 22, "interval": 0.85, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 20, "interval": 0.85, "delay": 0 }, { "type": "fast", "count": 8, "interval": 0.6, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 24, "interval": 0.8, "delay": 0 }, { "type": "fast", "count": 10, "interval": 0.6, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 34, "interval": 0.8, "delay": 0 }, { "type": "tank", "count": 2, "interval": 2.2, "delay": 5 } ] },
+    { "enemies": [ { "type": "normal", "count": 34, "interval": 0.7, "delay": 0 }, { "type": "fast", "count": 16, "interval": 0.5, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 46, "interval": 0.7, "delay": 0 }, { "type": "tank", "count": 2, "interval": 2.0, "delay": 5 } ] },
+    { "enemies": [ { "type": "normal", "count": 40, "interval": 0.65, "delay": 0 }, { "type": "fast", "count": 20, "interval": 0.5, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 50, "interval": 0.65, "delay": 0 }, { "type": "tank", "count": 3, "interval": 1.8, "delay": 5 }, { "type": "big_fast", "count": 4, "interval": 1.4, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 46, "interval": 0.6, "delay": 0 }, { "type": "fast", "count": 24, "interval": 0.45, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 58, "interval": 0.6, "delay": 0 }, { "type": "tank", "count": 3, "interval": 1.6, "delay": 5 }, { "type": "big_fast", "count": 5, "interval": 1.3, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 68, "interval": 0.5, "delay": 0 }, { "type": "fast", "count": 38, "interval": 0.4, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 68, "interval": 0.55, "delay": 0 }, { "type": "tank", "count": 4, "interval": 1.5, "delay": 5 }, { "type": "big_fast", "count": 6, "interval": 1.2, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 76, "interval": 0.48, "delay": 0 }, { "type": "fast", "count": 44, "interval": 0.4, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 78, "interval": 0.5, "delay": 0 }, { "type": "tank", "count": 4, "interval": 1.4, "delay": 5 }, { "type": "big_fast", "count": 7, "interval": 1.1, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 84, "interval": 0.45, "delay": 0 }, { "type": "fast", "count": 50, "interval": 0.38, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 88, "interval": 0.48, "delay": 0 }, { "type": "tank", "count": 5, "interval": 1.3, "delay": 5 }, { "type": "big_fast", "count": 8, "interval": 1.0, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 92, "interval": 0.42, "delay": 0 }, { "type": "fast", "count": 56, "interval": 0.36, "delay": 4 } ] },
+    { "enemies": [ { "type": "normal", "count": 98, "interval": 0.45, "delay": 0 }, { "type": "tank", "count": 5, "interval": 1.2, "delay": 5 }, { "type": "big_fast", "count": 9, "interval": 1.0, "delay": 6 } ] },
+    { "enemies": [ { "type": "normal", "count": 88, "interval": 0.4, "delay": 0 }, { "type": "fast", "count": 56, "interval": 0.34, "delay": 4 }, { "type": "tank", "count": 6, "interval": 1.2, "delay": 5 }, { "type": "big_fast", "count": 10, "interval": 1.0, "delay": 6 } ] }
+  ]
+}

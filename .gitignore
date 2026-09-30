@@ -1,0 +1,22 @@
+/temp/
+/library/
+/local/
+/dist/
+/node_modules/
+
+# 构建产物（可由 Cocos Creator 重新生成，体积大且污染搜索）
+/build/
+
+# 旧素材备份（不再被代码引用，纯残留）
+/assets/resources/Art_backup/
+/assets/resources/Art/Enemies_backup/
+
+# 日志
+*.log
+server.log
+
+# 编辑器本地配置（Cocos Creator，非工程资源）
+/.creator/
+
+# 生成预览（非工程资源，可由脚本重新生成）
+/out/

@@ -1,0 +1,62 @@
+{
+  "levelIndex": 100,
+  "name": "示例关卡",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "path": [
+    { "x": 0, "y": 2 },
+    { "x": 3, "y": 2 },
+    { "x": 3, "y": 5 },
+    { "x": 6, "y": 5 },
+    { "x": 6, "y": 1 },
+    { "x": 10, "y": 1 },
+    { "x": 10, "y": 3 },
+    { "x": 12, "y": 3 }
+  ],
+  "towerSpots": [
+    { "row": 1, "col": 1, "x": 0, "y": 0 },
+    { "row": 4, "col": 1, "x": 0, "y": 0 },
+    { "row": 1, "col": 4, "x": 0, "y": 0 },
+    { "row": 4, "col": 4, "x": 0, "y": 0 },
+    { "row": 2, "col": 7, "x": 0, "y": 0 },
+    { "row": 5, "col": 7, "x": 0, "y": 0 },
+    { "row": 2, "col": 9, "x": 0, "y": 0 },
+    { "row": 4, "col": 9, "x": 0, "y": 0 },
+    { "row": 4, "col": 11, "x": 0, "y": 0 },
+    { "row": 6, "col": 11, "x": 0, "y": 0 }
+  ],
+  "waves": [
+    {
+      "waveIndex": 0,
+      "enemies": [
+        { "type": "normal", "count": 6, "interval": 1.5, "delay": 0 }
+      ]
+    },
+    {
+      "waveIndex": 1,
+      "enemies": [
+        { "type": "normal", "count": 8, "interval": 1.2, "delay": 0 },
+        { "type": "fast", "count": 4, "interval": 0.8, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 2,
+      "enemies": [
+        { "type": "fast", "count": 8, "interval": 0.6, "delay": 0 },
+        { "type": "tank", "count": 3, "interval": 2.5, "delay": 6 },
+        { "type": "splitter", "count": 2, "interval": 3.0, "delay": 10 }
+      ]
+    },
+    {
+      "waveIndex": 3,
+      "enemies": [
+        { "type": "tank", "count": 5, "interval": 2.0, "delay": 0 },
+        { "type": "boss", "count": 1, "interval": 0, "delay": 12 }
+      ]
+    }
+  ],
+  "startGold": 350,
+  "lives": 10,
+  "availableTowers": ["emitter", "prism", "artillery", "rocket", "snow", "coagulator", "radiation", "tesla"]
+}

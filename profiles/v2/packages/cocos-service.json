@@ -1,0 +1,44 @@
+{
+  "__version__": "3.0.9",
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "a449bf",
+        "services": []
+      },
+      "android": {
+        "configID": "a449bf",
+        "services": []
+      },
+      "windows": {
+        "configID": "a449bf",
+        "services": []
+      },
+      "oppo-mini-game": {
+        "configID": "a449bf",
+        "services": []
+      },
+      "wechatgame": {
+        "configID": "a449bf",
+        "services": []
+      }
+    },
+    "taskOptionsMap": {
+      "1787737443988": {
+        "configID": "a449bf",
+        "services": [],
+        "__version__": "3.0.9"
+      },
+      "1787910340759": {
+        "configID": "a449bf",
+        "services": []
+      }
+    },
+    "__version__": "1.3.9"
+  },
+  "builder-options": {
+    "configID": "a449bf",
+    "services": [],
+    "__version__": "3.0.9"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "环林",
+  "uid": "lv04",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 550,
+  "lives": 10,
+  "availableTowers": ["emitter", "coagulator", "artillery"],
+
+  "path": [
+    { "x": 1, "y": 5 },
+    { "x": 4, "y": 5 },
+    { "x": 4, "y": 3 },
+    { "x": 1, "y": 3 },
+    { "x": 1, "y": 1 },
+    { "x": 7, "y": 1 },
+    { "x": 7, "y": 3 },
+    { "x": 5, "y": 3 },
+    { "x": 5, "y": 5 },
+    { "x": 8, "y": 5 },
+    { "x": 8, "y": 1 },
+    { "x": 10, "y": 1 },
+    { "x": 10, "y": 5 },
+    { "x": 12, "y": 5 }
+  ],
+
+  "towerSpots": [
+    { "row": 0, "col": 0 }, { "row": 0, "col": 1 }, { "row": 0, "col": 5 }, { "row": 0, "col": 7 },
+    { "row": 2, "col": 0 }, { "row": 2, "col": 2 }, { "row": 2, "col": 4 },
+    { "row": 3, "col": 11 }, { "row": 3, "col": 12 },
+    { "row": 4, "col": 0 }, { "row": 4, "col": 3 }, { "row": 4, "col": 7 }, { "row": 4, "col": 9 }, { "row": 4, "col": 12 },
+    { "row": 5, "col": 0 },
+    { "row": 6, "col": 0 }, { "row": 6, "col": 1 }, { "row": 6, "col": 3 }, { "row": 6, "col": 6 }, { "row": 6, "col": 7 }, { "row": 6, "col": 9 }, { "row": 6, "col": 11 }, { "row": 6, "col": 12 }
+  ],
+
+  "obstacles": [
+    { "row": 0, "col": 2, "type": "rock_wide" },
+    { "row": 0, "col": 9, "type": "rock_wide" },
+    { "row": 2, "col": 5, "type": "rock_wide" },
+    { "row": 4, "col": 1, "type": "rock_wide" },
+    { "row": 1, "col": 11, "type": "rock_big" }
+  ],
+
+  "waves": [
+    { "enemies": [ { "type": "normal", "count": 8, "interval": 1.6, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 10, "interval": 1.5, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 12, "interval": 1.4, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 14, "interval": 1.3, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 16, "interval": 1.2, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 16, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 18, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 18, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 20, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 22, "interval": 0.9, "delay": 0 } ] }
+  ]
+}

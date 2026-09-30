@@ -1,0 +1,11 @@
+{
+  "name": "tower-defense",
+  "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "test": "node tools/validate-levels.js",
+    "validate": "node tools/validate-levels.js"
+  }
+}

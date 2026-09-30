@@ -1,0 +1,134 @@
+{
+  "_source": [
+    "O00O00OOO00OO",
+    "O00O00OOO003O",
+    "0>11VOO00OO1O",
+    "O100>1111V010",
+    "01000OO001O1O",
+    "OA<O00O00>1A0",
+    "OOA111120OOOO"
+  ],
+  "_note": "第二关（霜原新径）：仅发射器+凝滞器，开局 750 金，10 波，只有普通怪与速度怪，难度偏易。_source 为原始网格图（0=障碍 1=道路 2=怪点 3=萝卜 O=塔位 AV<>=行进方向），仅供对照，游戏不读取。坐标采用 (x=列, y=行)。",
+
+  "uid": "lv02",
+  "name": "霜原新径",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 750,
+  "lives": 10,
+
+  "path": [
+    { "x": 7, "y": 6 },
+    { "x": 6, "y": 6 },
+    { "x": 5, "y": 6 },
+    { "x": 4, "y": 6 },
+    { "x": 3, "y": 6 },
+    { "x": 2, "y": 6 },
+    { "x": 2, "y": 5 },
+    { "x": 1, "y": 5 },
+    { "x": 1, "y": 4 },
+    { "x": 1, "y": 3 },
+    { "x": 1, "y": 2 },
+    { "x": 2, "y": 2 },
+    { "x": 3, "y": 2 },
+    { "x": 4, "y": 2 },
+    { "x": 4, "y": 3 },
+    { "x": 5, "y": 3 },
+    { "x": 6, "y": 3 },
+    { "x": 7, "y": 3 },
+    { "x": 8, "y": 3 },
+    { "x": 9, "y": 3 },
+    { "x": 9, "y": 4 },
+    { "x": 9, "y": 5 },
+    { "x": 10, "y": 5 },
+    { "x": 11, "y": 5 },
+    { "x": 11, "y": 4 },
+    { "x": 11, "y": 3 },
+    { "x": 11, "y": 2 },
+    { "x": 11, "y": 1 }
+  ],
+
+  "towerSpots": [
+    { "row": 0, "col": 0 }, { "row": 0, "col": 3 }, { "row": 0, "col": 6 }, { "row": 0, "col": 7 }, { "row": 0, "col": 8 }, { "row": 0, "col": 11 }, { "row": 0, "col": 12 },
+    { "row": 1, "col": 0 }, { "row": 1, "col": 3 }, { "row": 1, "col": 6 }, { "row": 1, "col": 7 }, { "row": 1, "col": 8 }, { "row": 1, "col": 12 },
+    { "row": 2, "col": 5 }, { "row": 2, "col": 6 }, { "row": 2, "col": 9 }, { "row": 2, "col": 10 }, { "row": 2, "col": 12 },
+    { "row": 3, "col": 0 }, { "row": 3, "col": 12 },
+    { "row": 4, "col": 5 }, { "row": 4, "col": 6 }, { "row": 4, "col": 10 }, { "row": 4, "col": 12 },
+    { "row": 5, "col": 0 }, { "row": 5, "col": 3 }, { "row": 5, "col": 6 },
+    { "row": 6, "col": 0 }, { "row": 6, "col": 1 }, { "row": 6, "col": 9 }, { "row": 6, "col": 10 }, { "row": 6, "col": 11 }, { "row": 6, "col": 12 }
+  ],
+
+  "obstacles": [
+    { "row": 0, "col": 1 }, { "row": 0, "col": 2 }, { "row": 0, "col": 4 }, { "row": 0, "col": 9 }, { "row": 0, "col": 10 },
+    { "row": 1, "col": 1 }, { "row": 1, "col": 2 }, { "row": 1, "col": 4 }, { "row": 1, "col": 5 }, { "row": 1, "col": 9 }, { "row": 1, "col": 10 },
+    { "row": 2, "col": 0, "type": "chest_small" }, { "row": 2, "col": 7 }, { "row": 2, "col": 8 },
+    { "row": 3, "col": 2 }, { "row": 3, "col": 3 }, { "row": 3, "col": 10 },
+    { "row": 4, "col": 0 }, { "row": 4, "col": 2 }, { "row": 4, "col": 3 }, { "row": 4, "col": 4 },
+    { "row": 4, "col": 7, "type": "chest_big" },
+    { "row": 5, "col": 4 }, { "row": 5, "col": 5 }, { "row": 5, "col": 12 },
+    { "row": 6, "col": 8 }
+  ],
+
+  "waves": [
+    {
+      "enemies": [
+        { "type": "normal", "count": 6, "interval": 1.5, "delay": 0 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 8, "interval": 1.3, "delay": 0 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 8, "interval": 1.2, "delay": 0 },
+        { "type": "fast", "count": 3, "interval": 1.0, "delay": 6 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 10, "interval": 1.1, "delay": 0 },
+        { "type": "fast", "count": 4, "interval": 0.9, "delay": 5 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 10, "interval": 1.0, "delay": 0 },
+        { "type": "fast", "count": 6, "interval": 0.8, "delay": 4 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "fast", "count": 10, "interval": 0.9, "delay": 0 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 12, "interval": 0.9, "delay": 0 },
+        { "type": "fast", "count": 6, "interval": 0.8, "delay": 4 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 14, "interval": 0.8, "delay": 0 },
+        { "type": "fast", "count": 8, "interval": 0.7, "delay": 3 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 14, "interval": 0.8, "delay": 0 },
+        { "type": "fast", "count": 10, "interval": 0.7, "delay": 3 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "normal", "count": 16, "interval": 0.7, "delay": 0 },
+        { "type": "fast", "count": 12, "interval": 0.6, "delay": 2 }
+      ]
+    }
+  ],
+
+  "availableTowers": ["emitter", "coagulator"]
+}

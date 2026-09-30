@@ -1,0 +1,87 @@
+{
+  "note": "隐藏任务（彩星条件）管理文件。每关最多 3 个，与关卡 JSON 完全分离（玩家不可见）。新增/修改某关任务，只需在此文件里以该关的 key 为键追加或编辑一条数组即可，无需改代码。",
+  "keyRules": "key 必须与星级记录一致（见 MissionData.getLevelStarKey）：地图文件/自制关卡用 c_<uid>（如 c_lv01）；内置关卡用 b_<levelIndex>（如绿野平原 b_0、沙漠风暴 b_1、炮塔测试场 b_2）。",
+  "typeValues": "type 取值：have_tower=拥有N座指定类型≥指定等级的塔；kill_by_tower=用指定塔消灭N个敌人；destroy_obstacle=摧毁指定格障碍；forbid_tower=禁止建造指定塔（建即本局失败）；limit_tower=指定塔拥有数量不超过 count 座（超过即本局失败）；finish_in_time=限时内通关；earn_gold=在 timeLimit 秒内累计获得 count 金币（花掉的钱不减少累计，超时未达标即本局失败）。",
+  "missions": {
+    "c_lv01": [
+      { "id": "lv01_m1", "desc": "建造 5 座 3 级发射器", "type": "have_tower", "towerType": "emitter", "towerLevel": 3, "count": 5 },
+      { "id": "lv01_m2", "desc": "用发射器消灭 50 个敌人", "type": "kill_by_tower", "towerType": "emitter", "count": 50 },
+      { "id": "lv01_m3", "desc": "清除 (4,4) 处的障碍", "type": "destroy_obstacle", "row": 4, "col": 4 }
+    ],
+    "c_lv02": [
+      { "id": "lv02_m1", "desc": "建造 1 座 3 级凝滞器", "type": "have_tower", "towerType": "coagulator", "towerLevel": 3, "count": 1 },
+      { "id": "lv02_m2", "desc": "用发射器消灭 50 个敌人", "type": "kill_by_tower", "towerType": "emitter", "count": 50 },
+      { "id": "lv02_m3", "desc": "清除 (5,4) 与 (3,10) 处的障碍", "type": "destroy_obstacle", "cells": [ { "row": 5, "col": 4 }, { "row": 3, "col": 10 } ] }
+    ],
+    "c_lv03": [
+      { "id": "lv03_m1", "desc": "建造 6 座 3 级火炮", "type": "have_tower", "towerType": "artillery", "towerLevel": 3, "count": 6 },
+      { "id": "lv03_m2", "desc": "建造 2 座 3 级凝滞器", "type": "have_tower", "towerType": "coagulator", "towerLevel": 3, "count": 2 },
+      { "id": "lv03_m3", "desc": "清除 (0,3) 与 (6,5) 处的障碍", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 3 }, { "row": 6, "col": 5 } ] }
+    ],
+    "c_lv04": [
+      { "id": "lv04_m1", "desc": "建造 7 座 3 级火炮", "type": "have_tower", "towerType": "artillery", "towerLevel": 3, "count": 7 },
+      { "id": "lv04_m2", "desc": "用发射器消灭 80 个敌人", "type": "kill_by_tower", "towerType": "emitter", "count": 80 },
+      { "id": "lv04_m3", "desc": "清除所有 2×1 障碍", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 2 }, { "row": 0, "col": 9 }, { "row": 2, "col": 5 }, { "row": 4, "col": 1 } ] }
+    ],
+    "c_lv05": [
+      { "id": "lv05_m1", "desc": "建造 2 座 3 级发射器", "type": "have_tower", "towerType": "emitter", "towerLevel": 3, "count": 2 },
+      { "id": "lv05_m2", "desc": "清除左上角 (1,0) 与 (4,0) 起始的两块 2×2 冰屋障碍", "type": "destroy_obstacle", "cells": [ { "row": 1, "col": 0 }, { "row": 1, "col": 1 }, { "row": 2, "col": 0 }, { "row": 2, "col": 1 }, { "row": 4, "col": 0 }, { "row": 4, "col": 1 }, { "row": 5, "col": 0 }, { "row": 5, "col": 1 } ] },
+      { "id": "lv05_m3", "desc": "清除 (1,5)、(4,5)、(5,9) 三块雪石障碍", "type": "destroy_obstacle", "cells": [ { "row": 1, "col": 5 }, { "row": 4, "col": 5 }, { "row": 5, "col": 9 } ] }
+    ],
+    "c_lv06": [
+      { "id": "lv06_m1", "desc": "辐射能塔最多建造 4 座", "type": "limit_tower", "towerType": "radiation", "count": 4 },
+      { "id": "lv06_m2", "desc": "用火炮消灭 100 个敌人", "type": "kill_by_tower", "towerType": "artillery", "count": 100 },
+      { "id": "lv06_m3", "desc": "清除 6 块普通障碍（坐标 (2,3)(2,7)(3,5)(3,11)(4,3)(5,1)）", "type": "destroy_obstacle", "cells": [ { "row": 2, "col": 3 }, { "row": 2, "col": 7 }, { "row": 3, "col": 5 }, { "row": 3, "col": 11 }, { "row": 4, "col": 3 }, { "row": 5, "col": 1 } ] }
+    ],
+    "c_lv07": [
+      { "id": "lv07_m1", "desc": "建造 6 座 3 级特斯拉电塔", "type": "have_tower", "towerType": "tesla", "towerLevel": 3, "count": 6 },
+      { "id": "lv07_m2", "desc": "清除 8 块普通障碍（坐标 (0,3)(0,11)(4,3)(4,4)(4,6)(4,7)(4,9)(4,10)）", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 3 }, { "row": 0, "col": 11 }, { "row": 4, "col": 3 }, { "row": 4, "col": 4 }, { "row": 4, "col": 6 }, { "row": 4, "col": 7 }, { "row": 4, "col": 9 }, { "row": 4, "col": 10 } ] },
+      { "id": "lv07_m3", "desc": "1200 秒内累计获得 2000 金币（买塔花的钱不算减少）", "type": "earn_gold", "count": 2000, "timeLimit": 1200 }
+    ],
+    "c_lv08": [
+      { "id": "lv08_m1", "desc": "建造 3 座 3 级凝滞器", "type": "have_tower", "towerType": "coagulator", "towerLevel": 3, "count": 3 },
+      { "id": "lv08_m2", "desc": "在 120 秒内清除 7 块普通障碍（坐标 (0,1)(1,0)(2,0)(3,1)(4,2)(5,3)(6,4)）", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 1 }, { "row": 1, "col": 0 }, { "row": 2, "col": 0 }, { "row": 3, "col": 1 }, { "row": 4, "col": 2 }, { "row": 5, "col": 3 }, { "row": 6, "col": 4 } ], "timeLimit": 120 },
+      { "id": "lv08_m3", "desc": "清除右侧 3 块普通障碍（坐标 (1,12)(3,12)(4,12)）", "type": "destroy_obstacle", "cells": [ { "row": 1, "col": 12 }, { "row": 3, "col": 12 }, { "row": 4, "col": 12 } ] }
+    ],
+    "c_lv09": [
+      { "id": "lv09_m1", "desc": "用发射器累计消灭 100 个敌人", "type": "kill_by_tower", "towerType": "emitter", "count": 100 },
+      { "id": "lv09_m2", "desc": "清除全部 8 块普通冰岩障碍（a 标记，1×1）", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 4 }, { "row": 0, "col": 7 }, { "row": 0, "col": 8 }, { "row": 0, "col": 11 }, { "row": 6, "col": 4 }, { "row": 6, "col": 7 }, { "row": 6, "col": 8 }, { "row": 6, "col": 11 } ] },
+      { "id": "lv09_m3", "desc": "清除全部 3 块巨型冰岩障碍（b 标记，2×2，共 12 格）", "type": "destroy_obstacle", "cells": [ { "row": 2, "col": 5 }, { "row": 2, "col": 6 }, { "row": 3, "col": 5 }, { "row": 3, "col": 6 }, { "row": 2, "col": 9 }, { "row": 2, "col": 10 }, { "row": 3, "col": 9 }, { "row": 3, "col": 10 }, { "row": 4, "col": 1 }, { "row": 4, "col": 2 }, { "row": 5, "col": 1 }, { "row": 5, "col": 2 } ] }
+    ],
+    "c_lv10": [
+      { "id": "lv10_m1", "desc": "在场地上建起 2 座 3 级光棱塔", "type": "have_tower", "towerType": "prism", "towerLevel": 3, "count": 2 },
+      { "id": "lv10_m2", "desc": "让光棱塔亲手消灭 80 个敌人", "type": "kill_by_tower", "towerType": "prism", "count": 80 },
+      { "id": "lv10_m3", "desc": "清除 6 块 a 标记冰岩（1×1，坐标 (2,10)(3,3)(3,6)(5,0)(5,9)(6,2)）", "type": "destroy_obstacle", "cells": [ { "row": 2, "col": 10 }, { "row": 3, "col": 3 }, { "row": 3, "col": 6 }, { "row": 5, "col": 0 }, { "row": 5, "col": 9 }, { "row": 6, "col": 2 } ] }
+    ],
+    "c_lv11": [
+      { "id": "lv11_m1", "desc": "在阵地中建起 4 座 3 级供能发射器", "type": "have_tower", "towerType": "emitter", "towerLevel": 3, "count": 4 },
+      { "id": "lv11_m2", "desc": "让轻型火炮亲手消灭 90 个敌人", "type": "kill_by_tower", "towerType": "artillery", "count": 90 },
+      { "id": "lv11_m3", "desc": "阵地中同时保有 2 座 3 级光棱塔", "type": "have_tower", "towerType": "prism", "towerLevel": 3, "count": 2 }
+    ],
+    "c_lv12": [
+      { "id": "lv12_m1", "desc": "在阵地中建起 8 座 3 级特斯拉电塔", "type": "have_tower", "towerType": "tesla", "towerLevel": 3, "count": 8 },
+      { "id": "lv12_m2", "desc": "在阵地中建起 2 座 3 级光棱塔", "type": "have_tower", "towerType": "prism", "towerLevel": 3, "count": 2 },
+      { "id": "lv12_m3", "desc": "开场 60 秒内清除 3 块 a 标记冰岩（坐标 (2,4)(3,8)(3,10)）", "type": "destroy_obstacle", "timeLimit": 60, "cells": [ { "row": 2, "col": 4 }, { "row": 3, "col": 8 }, { "row": 3, "col": 10 } ] }
+    ],
+    "c_lv13": [
+      { "id": "lv13_m1", "desc": "以凝滞与火炮为主力构建防线，全程光棱塔不超过 2 座", "type": "limit_tower", "towerType": "prism", "count": 2 },
+      { "id": "lv13_m2", "desc": "让轻型火炮亲手消灭 150 个敌人", "type": "kill_by_tower", "towerType": "artillery", "count": 150 },
+      { "id": "lv13_m3", "desc": "清空场上全部金袋（4 个 1×1 钱袋 + 4 个 2×2 钱袋，共 20 格）", "type": "destroy_obstacle", "cells": [ { "row": 1, "col": 4 }, { "row": 2, "col": 2 }, { "row": 4, "col": 10 }, { "row": 5, "col": 8 }, { "row": 0, "col": 9 }, { "row": 0, "col": 10 }, { "row": 1, "col": 9 }, { "row": 1, "col": 10 }, { "row": 1, "col": 6 }, { "row": 1, "col": 7 }, { "row": 2, "col": 6 }, { "row": 2, "col": 7 }, { "row": 4, "col": 1 }, { "row": 4, "col": 2 }, { "row": 5, "col": 1 }, { "row": 5, "col": 2 }, { "row": 5, "col": 5 }, { "row": 5, "col": 6 }, { "row": 6, "col": 5 }, { "row": 6, "col": 6 } ] }
+    ],
+    "c_lv14": [
+      { "id": "lv14_m1", "desc": "清空战场上的全部金袋（共 2 个 1×1 钱袋，位于 (1,4) 与 (3,12)）", "type": "destroy_obstacle", "cells": [ { "row": 1, "col": 4 }, { "row": 3, "col": 12 } ] },
+      { "id": "lv14_m2", "desc": "击碎所有 a 标记障碍（共 10 个 1×1 冰岩，坐标 (0,5)(2,5)(2,8)(4,0)(4,2)(4,3)(4,5)(4,8)(4,9)(6,0)）", "type": "destroy_obstacle", "cells": [ { "row": 0, "col": 5 }, { "row": 2, "col": 5 }, { "row": 2, "col": 8 }, { "row": 4, "col": 0 }, { "row": 4, "col": 2 }, { "row": 4, "col": 3 }, { "row": 4, "col": 5 }, { "row": 4, "col": 8 }, { "row": 4, "col": 9 }, { "row": 6, "col": 0 } ] },
+      { "id": "lv14_m3", "desc": "在 120 秒内累计获得 3000 金币（建造与升级花费不计入扣除）", "type": "earn_gold", "count": 3000, "timeLimit": 120 }
+    ],
+    "c_lv15": [
+      { "id": "lv15_m1", "desc": "精打细算供能：全程最多建造 4 座供能发射器（超出即挑战失败）", "type": "limit_tower", "towerType": "emitter", "count": 4 },
+      { "id": "lv15_m2", "desc": "节制电力消耗：全程最多建造 2 座特斯拉电塔（超出即挑战失败）", "type": "limit_tower", "towerType": "tesla", "count": 2 },
+      { "id": "lv15_m3", "desc": "开场 180 秒内清除沿路分布的 19 处冰岩（左右岩壁与底部岩带）", "type": "destroy_obstacle", "timeLimit": 180, "cells": [ { "row": 0, "col": 0 }, { "row": 1, "col": 0 }, { "row": 2, "col": 0 }, { "row": 3, "col": 0 }, { "row": 4, "col": 0 }, { "row": 5, "col": 0 }, { "row": 0, "col": 12 }, { "row": 1, "col": 12 }, { "row": 2, "col": 12 }, { "row": 3, "col": 12 }, { "row": 4, "col": 12 }, { "row": 6, "col": 2 }, { "row": 6, "col": 5 }, { "row": 6, "col": 7 }, { "row": 6, "col": 9 }, { "row": 2, "col": 8 }, { "row": 3, "col": 8 }, { "row": 3, "col": 9 }, { "row": 4, "col": 9 } ] }
+    ],
+    "b_2": [
+      { "id": "b2_m1", "desc": "建造 2 座特斯拉塔", "type": "have_tower", "towerType": "tesla", "towerLevel": 1, "count": 2 },
+      { "id": "b2_m2", "desc": "用辐射塔消灭 40 个敌人", "type": "kill_by_tower", "towerType": "radiation", "count": 40 },
+      { "id": "b2_m3", "desc": "摧毁 (2,9) 的粉色障碍", "type": "destroy_obstacle", "row": 2, "col": 9 }
+    ]
+  }
+}

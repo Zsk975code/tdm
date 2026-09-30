@@ -1,0 +1,82 @@
+{
+  "_source": "用户手绘 13×7 环形地图（替换原环）：刷新点(2,5)，路径首尾相接成闭环(Boss 战敌人循环不逃脱)。可用塔=凝滞器/火炮/辐射/特斯拉/光棱塔，开局1500金，限时150s歼灭全部敌人。a 标记=1×1 障碍(任务2目标)。",
+  "_note": "Boss 战：单波内用 delay 0/30/60/90 实现「每30s刷一波掩护小怪」的绝对计时；用 hpMult 1/2/3/4 实现逐波血量翻倍（普通怪单HP 500→1000→1500→2000）；最后一波在 elapsed=90s(剩余60s)刷新，符合「≤60s 不刷」。闭环路径航点：(2,5)(6,5)(6,0)(7,0)(7,5)(12,5)(12,6)(1,6)(1,5)(2,5)，敌人循环不逃脱（lives 形同虚设），只比 150s 内歼灭全部。敌人构成：飞行boss(BOSS·战飞行, HP10000/速度120) ×1 + 普通怪 ×60（12/14/16/18 分批、hpMult 1/2/3/4），总血量约 85000，需均 DPS≈567。障碍：2×rock_big(2×2)、5×rock_wide(2×1)、2×chest_small(1×1钱袋，=任务1)、10×a标记 rock_small(1×1，=任务2)（原拟置于 row5/row6 的 2 座 rock_big 整块压在闭环路径上会被 markObstacles 跳过，已改置于 row3 的 col1-2 与 col3-4）。经济：起始1500 + 击杀固定奖励1400（普通10/飞行boss800，不随 hpMult 放大）+ 障碍最多2900；仅击杀上限 2900 金不足以建够 DPS，必须拆 2 钱袋（任务1）启动经济（障碍需手动锁定才掉血）。任务3=120s累计金币（仅统计赚取金、不含起始金；击杀上限仅1400，需拆障碍钱袋+岩石才达 3000）。",
+  "uid": "lv14",
+  "name": "寒霜决战",
+  "levelIndex": 13,
+  "stars": 3,
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 1500,
+  "lives": 10,
+  "timeLimit": 150,
+  "mode": "boss",
+  "availableTowers": ["coagulator", "artillery", "radiation", "tesla", "prism"],
+  "path": [
+    { "x": 2, "y": 5 },
+    { "x": 6, "y": 5 },
+    { "x": 6, "y": 0 },
+    { "x": 7, "y": 0 },
+    { "x": 7, "y": 5 },
+    { "x": 12, "y": 5 },
+    { "x": 12, "y": 6 },
+    { "x": 1, "y": 6 },
+    { "x": 1, "y": 5 },
+    { "x": 2, "y": 5 }
+  ],
+  "towerSpots": [
+    { "row": 0, "col": 0, "x": 70, "y": 70 },
+    { "row": 0, "col": 2, "x": 350, "y": 70 },
+    { "row": 0, "col": 4, "x": 630, "y": 70 },
+    { "row": 0, "col": 10, "x": 1470, "y": 70 },
+    { "row": 0, "col": 12, "x": 1750, "y": 70 },
+    { "row": 1, "col": 0, "x": 70, "y": 210 },
+    { "row": 1, "col": 5, "x": 770, "y": 210 },
+    { "row": 1, "col": 8, "x": 1190, "y": 210 },
+    { "row": 1, "col": 12, "x": 1750, "y": 210 },
+    { "row": 2, "col": 1, "x": 210, "y": 350 },
+    { "row": 2, "col": 4, "x": 630, "y": 350 },
+    { "row": 2, "col": 9, "x": 1330, "y": 350 },
+    { "row": 3, "col": 0, "x": 70, "y": 490 },
+    { "row": 3, "col": 5, "x": 770, "y": 490 },
+    { "row": 3, "col": 8, "x": 1190, "y": 490 },
+    { "row": 4, "col": 1, "x": 210, "y": 630 },
+    { "row": 4, "col": 4, "x": 630, "y": 630 },
+    { "row": 4, "col": 10, "x": 1470, "y": 630 },
+    { "row": 5, "col": 0, "x": 70, "y": 770 }
+  ],
+  "obstacles": [
+    { "row": 1, "col": 2, "type": "rock_big" },
+    { "row": 1, "col": 10, "type": "rock_big" },
+    { "row": 3, "col": 1, "type": "rock_wide" },
+    { "row": 3, "col": 3, "type": "rock_wide" },
+    { "row": 0, "col": 8, "type": "rock_wide" },
+    { "row": 3, "col": 9, "type": "rock_wide" },
+    { "row": 4, "col": 11, "type": "rock_wide" },
+    { "row": 1, "col": 4, "type": "chest_small" },
+    { "row": 3, "col": 12, "type": "chest_small" },
+    { "row": 0, "col": 5, "type": "rock_small" },
+    { "row": 2, "col": 5, "type": "rock_small" },
+    { "row": 2, "col": 8, "type": "rock_small" },
+    { "row": 4, "col": 0, "type": "rock_small" },
+    { "row": 4, "col": 2, "type": "rock_small" },
+    { "row": 4, "col": 3, "type": "rock_small" },
+    { "row": 4, "col": 5, "type": "rock_small" },
+    { "row": 4, "col": 8, "type": "rock_small" },
+    { "row": 4, "col": 9, "type": "rock_small" },
+    { "row": 6, "col": 0, "type": "rock_small" }
+  ],
+  "waves": [
+    {
+      "waveIndex": 0,
+      "enemies": [
+        { "type": "boss_mode_flying", "count": 1, "interval": 1, "delay": 0, "hpMult": 1 },
+        { "type": "normal", "count": 12, "interval": 1.2, "delay": 0, "hpMult": 1 },
+        { "type": "normal", "count": 14, "interval": 1.2, "delay": 30, "hpMult": 2 },
+        { "type": "normal", "count": 16, "interval": 1.2, "delay": 60, "hpMult": 3 },
+        { "type": "normal", "count": 18, "interval": 1.2, "delay": 90, "hpMult": 4 }
+      ]
+    }
+  ]
+}

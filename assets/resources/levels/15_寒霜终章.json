@@ -1,0 +1,215 @@
+{
+  "_source": "用户手绘 13×7 蛇形回环地图（章节最终关·普通波次关）。刷新点(1,0)，萝卜(11,5)。可用塔=发射器/凝滞器/火炮/辐射/特斯拉，开局2000金，20波，难度困难。首波即刷常规大BOSS（noBlock：不计入本波清空判定，同波小怪死光即进入下一波倒计时）。",
+  "_note": "符号含义：0=障碍(1×1) · 1=道路 · 2=怪点 · 3=萝卜 · A/V/</>=路径方向 · O=可建塔位 · []=2×2大障碍(上下两行成对出现)。路径：怪点(1,0)↓(1,5)→(2,5)↑(2,0)→(5,0)↓(5,5)→(6,5)↑(6,0)→(7,0)↓(7,5)→(10,5)↑(10,0)→(11,0)↓萝卜(11,5)，全长45格(6300单位)。障碍共25处：23×rock_small(500血/50金) + 2×rock_big(2000血/200金，位于(0,8)与(1,3))。本关敌种只有「普通怪 / 大型普通怪 / 首波常规大BOSS」，不使用快速怪、大号快速怪、分裂怪、小BOSS。血量曲线走默认 calcWaveHpMult：levelIndex=14→等级3→首波1.5x线性升到末波2.5x；BOSS 用 hpMult:1 固定为 50000 基准血。难度靠数量与坦克密度堆叠：全程普通怪344只+坦克102只，末波(26普通+12坦克)约10.7万血。所有敌人速度均为60，走完全程约105s，压力集中于火力总量而非机动。任务3的19处障碍均紧邻路径，可被火炮/辐射溅射顺带清除。",
+  "uid": "lv15",
+  "name": "寒霜终章",
+  "levelIndex": 14,
+  "stars": 3,
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 2000,
+  "lives": 10,
+  "mode": "wave",
+  "availableTowers": ["emitter", "coagulator", "artillery", "radiation", "tesla"],
+  "path": [
+    { "x": 1, "y": 0 },
+    { "x": 1, "y": 5 },
+    { "x": 2, "y": 5 },
+    { "x": 2, "y": 0 },
+    { "x": 5, "y": 0 },
+    { "x": 5, "y": 5 },
+    { "x": 6, "y": 5 },
+    { "x": 6, "y": 0 },
+    { "x": 7, "y": 0 },
+    { "x": 7, "y": 5 },
+    { "x": 10, "y": 5 },
+    { "x": 10, "y": 0 },
+    { "x": 11, "y": 0 },
+    { "x": 11, "y": 5 }
+  ],
+  "towerSpots": [
+    { "row": 2, "col": 9, "x": 1330, "y": 350 },
+    { "row": 3, "col": 3, "x": 490, "y": 490 },
+    { "row": 4, "col": 8, "x": 1190, "y": 630 },
+    { "row": 5, "col": 4, "x": 630, "y": 770 },
+    { "row": 5, "col": 12, "x": 1750, "y": 770 },
+    { "row": 6, "col": 0, "x": 70, "y": 910 },
+    { "row": 6, "col": 1, "x": 210, "y": 910 },
+    { "row": 6, "col": 3, "x": 490, "y": 910 },
+    { "row": 6, "col": 4, "x": 630, "y": 910 },
+    { "row": 6, "col": 6, "x": 910, "y": 910 },
+    { "row": 6, "col": 8, "x": 1190, "y": 910 },
+    { "row": 6, "col": 10, "x": 1470, "y": 910 },
+    { "row": 6, "col": 11, "x": 1610, "y": 910 },
+    { "row": 6, "col": 12, "x": 1750, "y": 910 }
+  ],
+  "obstacles": [
+    { "row": 0, "col": 8, "type": "rock_big" },
+    { "row": 1, "col": 3, "type": "rock_big" },
+    { "row": 0, "col": 0, "type": "rock_small" },
+    { "row": 0, "col": 12, "type": "rock_small" },
+    { "row": 1, "col": 0, "type": "rock_small" },
+    { "row": 1, "col": 12, "type": "rock_small" },
+    { "row": 2, "col": 0, "type": "rock_small" },
+    { "row": 2, "col": 8, "type": "rock_small" },
+    { "row": 2, "col": 12, "type": "rock_small" },
+    { "row": 3, "col": 0, "type": "rock_small" },
+    { "row": 3, "col": 4, "type": "rock_small" },
+    { "row": 3, "col": 8, "type": "rock_small" },
+    { "row": 3, "col": 9, "type": "rock_small" },
+    { "row": 3, "col": 12, "type": "rock_small" },
+    { "row": 4, "col": 0, "type": "rock_small" },
+    { "row": 4, "col": 3, "type": "rock_small" },
+    { "row": 4, "col": 4, "type": "rock_small" },
+    { "row": 4, "col": 9, "type": "rock_small" },
+    { "row": 4, "col": 12, "type": "rock_small" },
+    { "row": 5, "col": 0, "type": "rock_small" },
+    { "row": 5, "col": 3, "type": "rock_small" },
+    { "row": 6, "col": 2, "type": "rock_small" },
+    { "row": 6, "col": 5, "type": "rock_small" },
+    { "row": 6, "col": 7, "type": "rock_small" },
+    { "row": 6, "col": 9, "type": "rock_small" }
+  ],
+  "waves": [
+    {
+      "waveIndex": 0,
+      "enemies": [
+        { "type": "boss", "count": 1, "interval": 1, "delay": 0, "hpMult": 1, "noBlock": true },
+        { "type": "normal", "count": 6, "interval": 1.2, "delay": 0 }
+      ]
+    },
+    {
+      "waveIndex": 1,
+      "enemies": [
+        { "type": "normal", "count": 10, "interval": 1.1, "delay": 0 }
+      ]
+    },
+    {
+      "waveIndex": 2,
+      "enemies": [
+        { "type": "normal", "count": 12, "interval": 1.0, "delay": 0 },
+        { "type": "tank", "count": 1, "interval": 2.0, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 3,
+      "enemies": [
+        { "type": "normal", "count": 12, "interval": 1.0, "delay": 0 },
+        { "type": "tank", "count": 2, "interval": 2.2, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 4,
+      "enemies": [
+        { "type": "normal", "count": 14, "interval": 1.0, "delay": 0 },
+        { "type": "tank", "count": 2, "interval": 2.2, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 5,
+      "enemies": [
+        { "type": "normal", "count": 14, "interval": 0.9, "delay": 0 },
+        { "type": "tank", "count": 3, "interval": 2.2, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 6,
+      "enemies": [
+        { "type": "normal", "count": 14, "interval": 0.9, "delay": 0 },
+        { "type": "tank", "count": 3, "interval": 2.0, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 7,
+      "enemies": [
+        { "type": "normal", "count": 16, "interval": 0.9, "delay": 0 },
+        { "type": "tank", "count": 4, "interval": 2.0, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 8,
+      "enemies": [
+        { "type": "normal", "count": 16, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 4, "interval": 2.0, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 9,
+      "enemies": [
+        { "type": "normal", "count": 18, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 5, "interval": 2.0, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 10,
+      "enemies": [
+        { "type": "normal", "count": 18, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 5, "interval": 1.9, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 11,
+      "enemies": [
+        { "type": "normal", "count": 18, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 6, "interval": 1.9, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 12,
+      "enemies": [
+        { "type": "normal", "count": 20, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 6, "interval": 1.9, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 13,
+      "enemies": [
+        { "type": "normal", "count": 20, "interval": 0.7, "delay": 0 },
+        { "type": "tank", "count": 7, "interval": 1.9, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 14,
+      "enemies": [
+        { "type": "normal", "count": 20, "interval": 0.7, "delay": 0 },
+        { "type": "tank", "count": 7, "interval": 1.8, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 15,
+      "enemies": [
+        { "type": "normal", "count": 22, "interval": 0.7, "delay": 0 },
+        { "type": "tank", "count": 8, "interval": 1.8, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 16,
+      "enemies": [
+        { "type": "normal", "count": 22, "interval": 0.7, "delay": 0 },
+        { "type": "tank", "count": 8, "interval": 1.8, "delay": 4 }
+      ]
+    },
+    {
+      "waveIndex": 17,
+      "enemies": [
+        { "type": "normal", "count": 22, "interval": 0.7, "delay": 0 },
+        { "type": "tank", "count": 9, "interval": 1.8, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 18,
+      "enemies": [
+        { "type": "normal", "count": 24, "interval": 0.6, "delay": 0 },
+        { "type": "tank", "count": 10, "interval": 1.8, "delay": 5 }
+      ]
+    },
+    {
+      "waveIndex": 19,
+      "enemies": [
+        { "type": "normal", "count": 26, "interval": 0.6, "delay": 0 },
+        { "type": "tank", "count": 12, "interval": 1.7, "delay": 4 }
+      ]
+    }
+  ]
+}

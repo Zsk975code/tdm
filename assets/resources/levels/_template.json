@@ -1,0 +1,63 @@
+{
+  "name": "模板：直线练习场",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 300,
+  "lives": 10,
+
+  "path": [
+    { "x": 0, "y": 3 },
+    { "x": 1, "y": 3 },
+    { "x": 2, "y": 3 },
+    { "x": 3, "y": 3 },
+    { "x": 4, "y": 3 },
+    { "x": 5, "y": 3 },
+    { "x": 6, "y": 3 },
+    { "x": 7, "y": 3 },
+    { "x": 8, "y": 3 },
+    { "x": 9, "y": 3 },
+    { "x": 10, "y": 3 },
+    { "x": 11, "y": 3 },
+    { "x": 12, "y": 3 }
+  ],
+
+  "towerSpots": [
+    { "row": 2, "col": 3 },
+    { "row": 4, "col": 3 },
+    { "row": 2, "col": 6 },
+    { "row": 4, "col": 6 },
+    { "row": 2, "col": 9 },
+    { "row": 4, "col": 9 }
+  ],
+
+  "obstacles": [
+    { "row": 2, "col": 11, "size": 1 },
+    { "row": 4, "col": 11, "size": 1, "pink": true }
+  ],
+
+  "waves": [
+    {
+      "enemies": [
+        { "type": "normal", "count": 8, "interval": 1.2, "delay": 0 }
+      ]
+    },
+    {
+      "enemies": [
+        { "type": "fast", "count": 5, "interval": 0.8, "delay": 0 },
+        { "type": "tank", "count": 2, "interval": 2.5, "delay": 6 }
+      ]
+    }
+  ],
+
+  "availableTowers": [
+    "emitter",
+    "prism",
+    "artillery",
+    "rocket",
+    "snow",
+    "coagulator",
+    "radiation",
+    "tesla"
+  ]
+}

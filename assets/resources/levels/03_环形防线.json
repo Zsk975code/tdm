@@ -1,0 +1,78 @@
+{
+  "name": "环形防线",
+  "uid": "lv03",
+  "rows": 7,
+  "cols": 13,
+  "cellSize": 140,
+  "startGold": 900,
+  "lives": 10,
+  "availableTowers": ["artillery", "coagulator"],
+
+  "path": [
+    { "x": 1, "y": 1 },
+    { "x": 5, "y": 1 },
+    { "x": 5, "y": 2 },
+    { "x": 7, "y": 2 },
+    { "x": 7, "y": 4 },
+    { "x": 5, "y": 4 },
+    { "x": 5, "y": 3 },
+    { "x": 3, "y": 3 },
+    { "x": 3, "y": 5 },
+    { "x": 11, "y": 5 }
+  ],
+
+  "towerSpots": [
+    { "row": 0, "col": 0 }, { "row": 0, "col": 1 }, { "row": 0, "col": 6 }, { "row": 0, "col": 10 }, { "row": 0, "col": 11 }, { "row": 0, "col": 12 },
+    { "row": 1, "col": 0 }, { "row": 1, "col": 7 },
+    { "row": 2, "col": 3 }, { "row": 2, "col": 8 }, { "row": 2, "col": 10 },
+    { "row": 3, "col": 9 }, { "row": 3, "col": 11 },
+    { "row": 4, "col": 0 }, { "row": 4, "col": 2 }, { "row": 4, "col": 8 }, { "row": 4, "col": 10 }, { "row": 4, "col": 11 }, { "row": 4, "col": 12 },
+    { "row": 5, "col": 0 }, { "row": 5, "col": 1 }, { "row": 5, "col": 2 }, { "row": 5, "col": 12 },
+    { "row": 6, "col": 0 }, { "row": 6, "col": 1 }, { "row": 6, "col": 2 }, { "row": 6, "col": 3 }, { "row": 6, "col": 7 }, { "row": 6, "col": 11 }, { "row": 6, "col": 12 }
+  ],
+
+  "obstacles": [
+    { "row": 0, "col": 2, "type": "rock_small" },
+    { "row": 0, "col": 5, "type": "rock_small" },
+    { "row": 0, "col": 7, "type": "rock_small" },
+    { "row": 1, "col": 6, "type": "rock_small" },
+    { "row": 1, "col": 10, "type": "rock_small" },
+    { "row": 2, "col": 2, "type": "rock_small" },
+    { "row": 2, "col": 4, "type": "rock_small" },
+    { "row": 2, "col": 9, "type": "rock_small" },
+    { "row": 3, "col": 2, "type": "rock_small" },
+    { "row": 3, "col": 6, "type": "rock_small" },
+    { "row": 3, "col": 8, "type": "rock_small" },
+    { "row": 3, "col": 10, "type": "rock_small" },
+    { "row": 3, "col": 12, "type": "rock_small" },
+    { "row": 4, "col": 1, "type": "rock_small" },
+    { "row": 4, "col": 4, "type": "rock_small" },
+    { "row": 4, "col": 9, "type": "rock_small" },
+    { "row": 6, "col": 4, "type": "rock_small" },
+    { "row": 6, "col": 10, "type": "rock_small" },
+    { "row": 0, "col": 3, "type": "rock_wide" },
+    { "row": 6, "col": 5, "type": "rock_wide" },
+    { "row": 6, "col": 8, "type": "rock_wide" },
+    { "row": 0, "col": 8, "type": "rock_big" },
+    { "row": 1, "col": 11, "type": "rock_big" },
+    { "row": 2, "col": 0, "type": "rock_big" }
+  ],
+
+  "waves": [
+    { "enemies": [ { "type": "normal", "count": 6, "interval": 1.2, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 8, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 9, "interval": 1.2, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 9, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 10, "interval": 1.2, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 11, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 12, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 12, "interval": 1.1, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 13, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 14, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 15, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 15, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 16, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 18, "interval": 1.0, "delay": 0 } ] },
+    { "enemies": [ { "type": "normal", "count": 20, "interval": 1.0, "delay": 0 } ] }
+  ]
+}

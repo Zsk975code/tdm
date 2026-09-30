@@ -1,0 +1,25 @@
+{
+  "__version__": "1.0.4",
+  "builder": {
+    "common": {
+      "binGroupConfig": {
+        "threshold": 16,
+        "enable": false
+      },
+      "buildPath": "project://build",
+      "outputName": "wechatgame",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "wechatgame"
+    },
+    "options": {
+      "wechatgame": {
+        "orientation": "landscapeRight",
+        "appid": "wx6ac3f5090a6b99c5",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "highPerformanceMode": false,
+        "__version__": "1.0.4"
+      }
+    }
+  }
+}

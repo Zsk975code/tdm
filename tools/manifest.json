@@ -1,0 +1,2704 @@
+[
+  {
+    "path": "Bullets/artillery_11",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/artillery_21",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/artillery_31",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator",
+    "w": 32,
+    "h": 32,
+    "size_inferred": true,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_11",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_21",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_31",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/coagulator_bullet_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_11",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_21",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_31",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/emitter_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/prism_11",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/prism_21",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/prism_31",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_11",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_14",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_21",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_24",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_31",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Bullets/venom_34",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "子弹 (Bullets)"
+  },
+  {
+    "path": "Effects/artillery_explosion_11",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_explosion_12",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_explosion_13",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_explosion_14",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_explosion_15",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_explosion_16",
+    "w": 240,
+    "h": 240,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_hit_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/artillery_hit_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/coagulator_hit_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/coagulator_hit_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/coagulator_slow",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/coagulator_slow_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_11",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_12",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_13",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_14",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_21",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_22",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_23",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_24",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_31",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_32",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_33",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_beam_34",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_hit_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_hit_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_hit_03",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/condenser_slow",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/e_spawn_01",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/e_spawn_02",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/e_spawn_03",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/emitter_hit_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/emitter_hit_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/poison_overlay",
+    "w": 40,
+    "h": 40,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/prism_hit_01",
+    "w": 72,
+    "h": 72,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/prism_hit_02",
+    "w": 72,
+    "h": 72,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/prism_slow",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_11",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_12",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_13",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_14",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_15",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_16",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_17",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_18",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_21",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_22",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_23",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_24",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_25",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_26",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_27",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_28",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_31",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_32",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_33",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_34",
+    "w": 400,
+    "h": 400,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_35",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_36",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_37",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_beam_38",
+    "w": 80,
+    "h": 80,
+    "size_inferred": true,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_03",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_04",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_05",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_06",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_07",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_08",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/radiation_hit_09",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_11",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_12",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_13",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_14",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_15",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_21",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_22",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_23",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_24",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_25",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_31",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_32",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_33",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_34",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/rocket_fire_35",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/slow_overlay",
+    "w": 48,
+    "h": 48,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_11",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_12",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_13",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_14",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_15",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_21",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_22",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_23",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_24",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_25",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_31",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_32",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_33",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_34",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_fire_35",
+    "w": 320,
+    "h": 320,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/snow_freeze_11",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_0",
+    "w": 17,
+    "h": 23,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_1",
+    "w": 17,
+    "h": 23,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_2",
+    "w": 25,
+    "h": 11,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_3",
+    "w": 5,
+    "h": 5,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_4",
+    "w": 5,
+    "h": 5,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/split_effect_5",
+    "w": 5,
+    "h": 5,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/t_build_01",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/t_build_02",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/t_build_03",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_11",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_12",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_13",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_14",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_31",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_32",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_33",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_beam_34",
+    "w": 56,
+    "h": 174,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_41",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_42",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_43",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_44",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_51",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_52",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_53",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_54",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_61",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_62",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_63",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_fire_64",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_hit_01",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/tesla_hit_02",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/upgrade_flash",
+    "w": 100,
+    "h": 100,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/venom_fire_11",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/venom_fire_12",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/venom_fire_13",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/venom_fire_14",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Effects/venom_fire_15",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "特效 (Effects)"
+  },
+  {
+    "path": "Enemies/big_fast_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/big_fast_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/big_fast_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/big_fast_21",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/big_fast_22",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/big_fast_23",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_mode_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_mode_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/boss_mode_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_21",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_22",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/fast_23",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_bm_31",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_bm_32",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_bm_33",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_f2_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_f2_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_f2_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_l_21",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_l_22",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/normal_l_23",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/small_boss_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/small_boss_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/small_boss_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/splitter_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/splitter_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/splitter_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_11",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_12",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_13",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_21",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_22",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_23",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_31",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_32",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_33",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_41",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_42",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Enemies/tank_43",
+    "w": 32,
+    "h": 32,
+    "size_inferred": false,
+    "category": "敌人 (Enemies)"
+  },
+  {
+    "path": "Road/road_corner_NE",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Road/road_corner_NW",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Road/road_corner_SE",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Road/road_corner_SW",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Road/road_straight_h",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Road/road_straight_v",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "道路 (Road)"
+  },
+  {
+    "path": "Towers/artillery_attack_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_attack_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_attack_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_attack_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_attack_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_attack_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/artillery_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_14",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_24",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_attack_34",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/coagulator_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_face_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_face_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_face_03",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/condenser_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_attack_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/emitter_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_attack_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/prism_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_face_01",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_face_02",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_face_03",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/radiation_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_12",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_13",
+    "w": 80,
+    "h": 80,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_22",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_23",
+    "w": 88,
+    "h": 88,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_32",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_attack_33",
+    "w": 96,
+    "h": 96,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/rocket_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_base_lv1",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_base_lv2",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_base_lv3",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_lv1",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_lv2",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/snow_lv3",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/tesla_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/tesla_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/tesla_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_12",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_13",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_14",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_22",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_23",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_24",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_32",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_33",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_attack_34",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_base_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_base_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_base_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_lv1",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_lv2",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "Towers/venom_lv3",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "塔 (Towers)"
+  },
+  {
+    "path": "UI/bg_pause",
+    "w": 600,
+    "h": 400,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/btn_disabled",
+    "w": 192,
+    "h": 72,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/btn_green",
+    "w": 192,
+    "h": 72,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/btn_hover",
+    "w": 192,
+    "h": 72,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/btn_normal",
+    "w": 192,
+    "h": 72,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/cell_empty",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/cell_path",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/cell_tower_spot",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/diff_1",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/diff_2",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/diff_3",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/diff_4",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/diff_5",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/hp_bar_bg",
+    "w": 240,
+    "h": 22,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/hp_bar_fill",
+    "w": 240,
+    "h": 22,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/hud_bg",
+    "w": 900,
+    "h": 58,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/level_bg",
+    "w": 1920,
+    "h": 1080,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/level_select_bg",
+    "w": 1920,
+    "h": 1080,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/lock",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/logo_title",
+    "w": 960,
+    "h": 260,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/main_menu_bg",
+    "w": 1280,
+    "h": 720,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_big",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_big_b2",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_chest_big",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_chest_small",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_small_01",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_small_02",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_small_03",
+    "w": 140,
+    "h": 140,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_wide_01",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_wide_02",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/obstacle_wide_03",
+    "w": 280,
+    "h": 280,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/panel_build_popup",
+    "w": 300,
+    "h": 180,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/panel_level_card",
+    "w": 260,
+    "h": 340,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/panel_tower_info",
+    "w": 300,
+    "h": 180,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/panel_wave_banner",
+    "w": 400,
+    "h": 80,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/radish",
+    "w": 120,
+    "h": 120,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/spawn_marker",
+    "w": 112,
+    "h": 112,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/star_empty",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/star_full",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/star_secret",
+    "w": 64,
+    "h": 64,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_artillery",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_artillery_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_coagulator",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_coagulator_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_condenser",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_condenser_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_emitter",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_emitter_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_prism",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_prism_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_radiation",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_radiation_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_rocket",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_rocket_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_snow",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_snow_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_tesla",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_tesla_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_venom",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  },
+  {
+    "path": "UI/tower_icon_venom_off",
+    "w": 56,
+    "h": 56,
+    "size_inferred": false,
+    "category": "界面 (UI)"
+  }
+]
